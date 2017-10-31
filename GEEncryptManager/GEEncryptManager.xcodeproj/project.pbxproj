@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F558D4E71FA82509006D1497 /* public_key.der in Resources */ = {isa = PBXBuildFile; fileRef = F558D4E51FA82509006D1497 /* public_key.der */; };
+		F558D4E81FA82509006D1497 /* private_key.p12 in Resources */ = {isa = PBXBuildFile; fileRef = F558D4E61FA82509006D1497 /* private_key.p12 */; };
+		F565E3F61FA6C0ED00AE4619 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F565E3F51FA6C0ED00AE4619 /* AppDelegate.m */; };
+		F565E3F91FA6C0ED00AE4619 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F565E3F81FA6C0ED00AE4619 /* ViewController.m */; };
+		F565E3FC1FA6C0ED00AE4619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F565E3FA1FA6C0ED00AE4619 /* Main.storyboard */; };
+		F565E3FE1FA6C0ED00AE4619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F565E3FD1FA6C0ED00AE4619 /* Assets.xcassets */; };
+		F565E4011FA6C0ED00AE4619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F565E3FF1FA6C0ED00AE4619 /* LaunchScreen.storyboard */; };
+		F565E4041FA6C0ED00AE4619 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F565E4031FA6C0ED00AE4619 /* main.m */; };
+		F565E40E1FA6C0ED00AE4619 /* GEEncryptManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F565E40D1FA6C0ED00AE4619 /* GEEncryptManagerTests.m */; };
+		F565E4191FA6C0ED00AE4619 /* GEEncryptManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F565E4181FA6C0ED00AE4619 /* GEEncryptManagerUITests.m */; };
+		F565E42C1FA6C14500AE4619 /* GEEncryptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F565E42B1FA6C14500AE4619 /* GEEncryptManager.m */; };
+		F565E4351FA6C35F00AE4619 /* GEEncrytDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F565E4331FA6C35F00AE4619 /* GEEncrytDetailViewController.m */; };
+		F565E43B1FA7253F00AE4619 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = F565E4391FA7253F00AE4619 /* GTMBase64.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F565E40A1FA6C0ED00AE4619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F565E3E91FA6C0ED00AE4619 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F565E3F01FA6C0ED00AE4619;
+			remoteInfo = GEEncryptManager;
+		};
+		F565E4151FA6C0ED00AE4619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F565E3E91FA6C0ED00AE4619 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F565E3F01FA6C0ED00AE4619;
+			remoteInfo = GEEncryptManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F558D4E51FA82509006D1497 /* public_key.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = public_key.der; sourceTree = "<group>"; };
+		F558D4E61FA82509006D1497 /* private_key.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = private_key.p12; sourceTree = "<group>"; };
+		F565E3F11FA6C0ED00AE4619 /* GEEncryptManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GEEncryptManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F565E3F41FA6C0ED00AE4619 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F565E3F51FA6C0ED00AE4619 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F565E3F71FA6C0ED00AE4619 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F565E3F81FA6C0ED00AE4619 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F565E3FB1FA6C0ED00AE4619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F565E3FD1FA6C0ED00AE4619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F565E4001FA6C0ED00AE4619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F565E4021FA6C0ED00AE4619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F565E4031FA6C0ED00AE4619 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F565E4091FA6C0ED00AE4619 /* GEEncryptManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GEEncryptManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F565E40D1FA6C0ED00AE4619 /* GEEncryptManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GEEncryptManagerTests.m; sourceTree = "<group>"; };
+		F565E40F1FA6C0ED00AE4619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F565E4141FA6C0ED00AE4619 /* GEEncryptManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GEEncryptManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F565E4181FA6C0ED00AE4619 /* GEEncryptManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GEEncryptManagerUITests.m; sourceTree = "<group>"; };
+		F565E41A1FA6C0ED00AE4619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F565E42A1FA6C14500AE4619 /* GEEncryptManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEEncryptManager.h; sourceTree = "<group>"; };
+		F565E42B1FA6C14500AE4619 /* GEEncryptManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEEncryptManager.m; sourceTree = "<group>"; };
+		F565E4321FA6C35F00AE4619 /* GEEncrytDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GEEncrytDetailViewController.h; sourceTree = "<group>"; };
+		F565E4331FA6C35F00AE4619 /* GEEncrytDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GEEncrytDetailViewController.m; sourceTree = "<group>"; };
+		F565E4381FA7253F00AE4619 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		F565E4391FA7253F00AE4619 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		F565E43A1FA7253F00AE4619 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F565E3EE1FA6C0ED00AE4619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F565E4061FA6C0ED00AE4619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F565E4111FA6C0ED00AE4619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F558D4E41FA82500006D1497 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F558D4E61FA82509006D1497 /* private_key.p12 */,
+				F558D4E51FA82509006D1497 /* public_key.der */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F565E3E81FA6C0ED00AE4619 = {
+			isa = PBXGroup;
+			children = (
+				F565E3F31FA6C0ED00AE4619 /* GEEncryptManager */,
+				F565E40C1FA6C0ED00AE4619 /* GEEncryptManagerTests */,
+				F565E4171FA6C0ED00AE4619 /* GEEncryptManagerUITests */,
+				F565E3F21FA6C0ED00AE4619 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F565E3F21FA6C0ED00AE4619 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F565E3F11FA6C0ED00AE4619 /* GEEncryptManager.app */,
+				F565E4091FA6C0ED00AE4619 /* GEEncryptManagerTests.xctest */,
+				F565E4141FA6C0ED00AE4619 /* GEEncryptManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F565E3F31FA6C0ED00AE4619 /* GEEncryptManager */ = {
+			isa = PBXGroup;
+			children = (
+				F565E4291FA6C11A00AE4619 /* GEEncryptManager */,
+				F565E3F41FA6C0ED00AE4619 /* AppDelegate.h */,
+				F565E3F51FA6C0ED00AE4619 /* AppDelegate.m */,
+				F565E4321FA6C35F00AE4619 /* GEEncrytDetailViewController.h */,
+				F565E4331FA6C35F00AE4619 /* GEEncrytDetailViewController.m */,
+				F565E3F71FA6C0ED00AE4619 /* ViewController.h */,
+				F565E3F81FA6C0ED00AE4619 /* ViewController.m */,
+				F565E3FA1FA6C0ED00AE4619 /* Main.storyboard */,
+				F565E3FD1FA6C0ED00AE4619 /* Assets.xcassets */,
+				F565E3FF1FA6C0ED00AE4619 /* LaunchScreen.storyboard */,
+				F565E4021FA6C0ED00AE4619 /* Info.plist */,
+				F565E4031FA6C0ED00AE4619 /* main.m */,
+			);
+			path = GEEncryptManager;
+			sourceTree = "<group>";
+		};
+		F565E40C1FA6C0ED00AE4619 /* GEEncryptManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F565E40D1FA6C0ED00AE4619 /* GEEncryptManagerTests.m */,
+				F565E40F1FA6C0ED00AE4619 /* Info.plist */,
+			);
+			path = GEEncryptManagerTests;
+			sourceTree = "<group>";
+		};
+		F565E4171FA6C0ED00AE4619 /* GEEncryptManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F565E4181FA6C0ED00AE4619 /* GEEncryptManagerUITests.m */,
+				F565E41A1FA6C0ED00AE4619 /* Info.plist */,
+			);
+			path = GEEncryptManagerUITests;
+			sourceTree = "<group>";
+		};
+		F565E4291FA6C11A00AE4619 /* GEEncryptManager */ = {
+			isa = PBXGroup;
+			children = (
+				F558D4E41FA82500006D1497 /* Resources */,
+				F565E4371FA7253F00AE4619 /* GTMBase64 */,
+				F565E42A1FA6C14500AE4619 /* GEEncryptManager.h */,
+				F565E42B1FA6C14500AE4619 /* GEEncryptManager.m */,
+			);
+			path = GEEncryptManager;
+			sourceTree = "<group>";
+		};
+		F565E4371FA7253F00AE4619 /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				F565E4381FA7253F00AE4619 /* GTMBase64.h */,
+				F565E4391FA7253F00AE4619 /* GTMBase64.m */,
+				F565E43A1FA7253F00AE4619 /* GTMDefines.h */,
+			);
+			path = GTMBase64;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F565E3F01FA6C0ED00AE4619 /* GEEncryptManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F565E41D1FA6C0ED00AE4619 /* Build configuration list for PBXNativeTarget "GEEncryptManager" */;
+			buildPhases = (
+				F565E3ED1FA6C0ED00AE4619 /* Sources */,
+				F565E3EE1FA6C0ED00AE4619 /* Frameworks */,
+				F565E3EF1FA6C0ED00AE4619 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GEEncryptManager;
+			productName = GEEncryptManager;
+			productReference = F565E3F11FA6C0ED00AE4619 /* GEEncryptManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F565E4081FA6C0ED00AE4619 /* GEEncryptManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F565E4201FA6C0ED00AE4619 /* Build configuration list for PBXNativeTarget "GEEncryptManagerTests" */;
+			buildPhases = (
+				F565E4051FA6C0ED00AE4619 /* Sources */,
+				F565E4061FA6C0ED00AE4619 /* Frameworks */,
+				F565E4071FA6C0ED00AE4619 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F565E40B1FA6C0ED00AE4619 /* PBXTargetDependency */,
+			);
+			name = GEEncryptManagerTests;
+			productName = GEEncryptManagerTests;
+			productReference = F565E4091FA6C0ED00AE4619 /* GEEncryptManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F565E4131FA6C0ED00AE4619 /* GEEncryptManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F565E4231FA6C0ED00AE4619 /* Build configuration list for PBXNativeTarget "GEEncryptManagerUITests" */;
+			buildPhases = (
+				F565E4101FA6C0ED00AE4619 /* Sources */,
+				F565E4111FA6C0ED00AE4619 /* Frameworks */,
+				F565E4121FA6C0ED00AE4619 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F565E4161FA6C0ED00AE4619 /* PBXTargetDependency */,
+			);
+			name = GEEncryptManagerUITests;
+			productName = GEEncryptManagerUITests;
+			productReference = F565E4141FA6C0ED00AE4619 /* GEEncryptManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F565E3E91FA6C0ED00AE4619 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "goldeneye by smart-small";
+				TargetAttributes = {
+					F565E3F01FA6C0ED00AE4619 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					F565E4081FA6C0ED00AE4619 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F565E3F01FA6C0ED00AE4619;
+					};
+					F565E4131FA6C0ED00AE4619 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F565E3F01FA6C0ED00AE4619;
+					};
+				};
+			};
+			buildConfigurationList = F565E3EC1FA6C0ED00AE4619 /* Build configuration list for PBXProject "GEEncryptManager" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F565E3E81FA6C0ED00AE4619;
+			productRefGroup = F565E3F21FA6C0ED00AE4619 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F565E3F01FA6C0ED00AE4619 /* GEEncryptManager */,
+				F565E4081FA6C0ED00AE4619 /* GEEncryptManagerTests */,
+				F565E4131FA6C0ED00AE4619 /* GEEncryptManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F565E3EF1FA6C0ED00AE4619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F565E4011FA6C0ED00AE4619 /* LaunchScreen.storyboard in Resources */,
+				F565E3FE1FA6C0ED00AE4619 /* Assets.xcassets in Resources */,
+				F558D4E71FA82509006D1497 /* public_key.der in Resources */,
+				F558D4E81FA82509006D1497 /* private_key.p12 in Resources */,
+				F565E3FC1FA6C0ED00AE4619 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F565E4071FA6C0ED00AE4619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F565E4121FA6C0ED00AE4619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F565E3ED1FA6C0ED00AE4619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F565E3F91FA6C0ED00AE4619 /* ViewController.m in Sources */,
+				F565E43B1FA7253F00AE4619 /* GTMBase64.m in Sources */,
+				F565E42C1FA6C14500AE4619 /* GEEncryptManager.m in Sources */,
+				F565E4351FA6C35F00AE4619 /* GEEncrytDetailViewController.m in Sources */,
+				F565E4041FA6C0ED00AE4619 /* main.m in Sources */,
+				F565E3F61FA6C0ED00AE4619 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F565E4051FA6C0ED00AE4619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F565E40E1FA6C0ED00AE4619 /* GEEncryptManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F565E4101FA6C0ED00AE4619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F565E4191FA6C0ED00AE4619 /* GEEncryptManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F565E40B1FA6C0ED00AE4619 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F565E3F01FA6C0ED00AE4619 /* GEEncryptManager */;
+			targetProxy = F565E40A1FA6C0ED00AE4619 /* PBXContainerItemProxy */;
+		};
+		F565E4161FA6C0ED00AE4619 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F565E3F01FA6C0ED00AE4619 /* GEEncryptManager */;
+			targetProxy = F565E4151FA6C0ED00AE4619 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F565E3FA1FA6C0ED00AE4619 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F565E3FB1FA6C0ED00AE4619 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F565E3FF1FA6C0ED00AE4619 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F565E4001FA6C0ED00AE4619 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F565E41B1FA6C0ED00AE4619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F565E41C1FA6C0ED00AE4619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F565E41E1FA6C0ED00AE4619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C5A22C422;
+				INFOPLIST_FILE = GEEncryptManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = goldeneye.demo.GEEncryptManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F565E41F1FA6C0ED00AE4619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C5A22C422;
+				INFOPLIST_FILE = GEEncryptManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = goldeneye.demo.GEEncryptManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F565E4211FA6C0ED00AE4619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C5A22C422;
+				INFOPLIST_FILE = GEEncryptManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = goldeneye.demo.GEEncryptManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GEEncryptManager.app/GEEncryptManager";
+			};
+			name = Debug;
+		};
+		F565E4221FA6C0ED00AE4619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C5A22C422;
+				INFOPLIST_FILE = GEEncryptManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = goldeneye.demo.GEEncryptManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GEEncryptManager.app/GEEncryptManager";
+			};
+			name = Release;
+		};
+		F565E4241FA6C0ED00AE4619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C5A22C422;
+				INFOPLIST_FILE = GEEncryptManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = goldeneye.demo.GEEncryptManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GEEncryptManager;
+			};
+			name = Debug;
+		};
+		F565E4251FA6C0ED00AE4619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C5A22C422;
+				INFOPLIST_FILE = GEEncryptManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = goldeneye.demo.GEEncryptManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GEEncryptManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F565E3EC1FA6C0ED00AE4619 /* Build configuration list for PBXProject "GEEncryptManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F565E41B1FA6C0ED00AE4619 /* Debug */,
+				F565E41C1FA6C0ED00AE4619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F565E41D1FA6C0ED00AE4619 /* Build configuration list for PBXNativeTarget "GEEncryptManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F565E41E1FA6C0ED00AE4619 /* Debug */,
+				F565E41F1FA6C0ED00AE4619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F565E4201FA6C0ED00AE4619 /* Build configuration list for PBXNativeTarget "GEEncryptManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F565E4211FA6C0ED00AE4619 /* Debug */,
+				F565E4221FA6C0ED00AE4619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F565E4231FA6C0ED00AE4619 /* Build configuration list for PBXNativeTarget "GEEncryptManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F565E4241FA6C0ED00AE4619 /* Debug */,
+				F565E4251FA6C0ED00AE4619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F565E3E91FA6C0ED00AE4619 /* Project object */;
+}
